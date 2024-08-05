@@ -24,15 +24,16 @@ This is a comprehensive finance tracker application developed using Java and Swi
 
 1. **Clone the repository**
     ```sh
-    git clone https://github.com/yourusername/finance-tracker.git
+    git clone https://github.com/thenukee/finance-tracker.git
     cd finance-tracker
     ```
 
-2. **Open the project in your preferred IDE (e.g., NetBeans, IntelliJ IDEA, Eclipse)**
+2. **Open the project in your preferred IDE developed in Netbeans(e.g., NetBeans, IntelliJ IDEA, Eclipse)**
 
 3. **Setup the H2 Database**
     - The application uses an embedded H2 database. The database configuration is specified in the `application.properties` file.
     - No additional setup is required for the H2 database as it runs embedded within the application.
+    -May use SQLITE, but no password encryption will be there for database
 
 4. **Build and Run the Application**
     - Compile and run the `Main.java` file from your IDE.
